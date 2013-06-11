@@ -1,0 +1,13 @@
+<div class="footer-container">
+    <div class="footer">
+                
+        <div id="leftFooter">
+        
+        </div>
+        <div id="rightFooter">
+        <!-- <img id="footerLogo" src="http://kapasoft.com/skin/frontend/kapasoft/webdesign/images/footerLogo.png" />-->
+        </div>
+        <div style="clear:both"></div>
+        <address class="copyrights">&copy; 2010 KapaSoft Web Design. All Rights Reserved.</address>
+    </div>
+</div>

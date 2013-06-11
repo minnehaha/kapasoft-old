@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+	<default>
+	<!-- Remove callouts and rarely used stuff -->
+		<remove name="right.poll"/>
+		<remove name="cart_sidebar"/>
+		<remove name="catalog.compare.sidebar" />
+		<remove name="right.permanent.callout"/>
+		<remove name="left.permanent.callout"/>
+		<remove name="paypal.partner.right.logo"/>
+		<remove name="left" />
+		
+		<!-- set default layout-->
+		<reference name="root">
+			<action method="setTemplate"><template>page/3columns.phtml</template></action>
+		</reference>
+		
+		<!-- add the local stylesheet -->
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/local.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/content.css</stylesheet></action>
+		</reference>
+		
+		<!--  <reference name="left">
+			<action method="unsetChildren"></action>
+		</reference>-->
+	</default>
+	
+	<contacts_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/3columns.phtml</template></action>
+            <action method="setIsHandle"><applied>1</applied></action>
+            <action method="setHeaderTitle" translate="title" module="contacts"><title>Contact Us</title></action>
+        </reference>
+        <reference name="contactForm">
+   		     <action method="setTemplate"><template>contactsKapasoft/form2.phtml</template></action>
+        </reference>
+    </contacts_index_index>
+	
+</layout>

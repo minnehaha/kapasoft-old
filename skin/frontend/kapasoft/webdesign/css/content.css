@@ -1,0 +1,113 @@
+/*PORTFOLIO*/
+.portfolioImg{
+	text-align:center;
+	}
+.portfolioImg img{
+	border:none;
+	}
+
+.portfolioText{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom:10px;
+	}
+
+.portfolioText button{
+	padding:2px 4px 2px 4px;
+	margin-bottom:10px;
+	}
+	
+/*WHAT OTHERS SAY*/
+.othersComment{
+	font-style:italic;
+	margin-top:80px;
+	position:relative;
+	}
+	
+.leftQuote{	
+	position:absolute;
+	top:-60px;
+	left:-10px;
+	/* for IE */
+  filter:alpha(opacity=30);
+  /* CSS3 standard */
+  opacity:0.3;
+	}
+	
+.rightQuote{	
+	position:absolute;
+	bottom:-60px;
+	right:-10px;
+	/* for IE */
+  filter:alpha(opacity=30);
+  /* CSS3 standard */
+  opacity:0.3;
+	}
+	
+.commentPerson{
+	font-size:0.7em;
+	font-weight:800;
+	
+	}
+	
+/*CONTACT US*/
+	
+.fieldset ul, .fieldset li{
+	border:0; margin:0; padding:0; list-style:none;
+	}
+	
+.fieldset li{
+clear:both;
+list-style:none;
+padding-bottom:10px;
+}
+
+.fieldset em, p.required{
+	font-size:0.8em;
+	color:#7a0026;
+	}
+
+.button{
+	padding:4px 8px 4px 8px;
+	margin-left:50px;
+	margin-top:15px;
+	}
+
+.fieldset label{
+width:200px;
+float:left;
+}
+
+.input-box input[type="text"], .input-box textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #7a0026;
+    width: 350px;
+    background-image: url( '../images/formBg.png' );
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.input-box input[type="text"]:focus , .input-box textarea:focus
+{
+background-image: none;
+    background-color: #ffffff;
+    border: solid 1px gray;
+}
+
+.messages{
+	margin-bottom:20px;
+	border:solid thing black;
+	}
+	
+.messages li{
+	list-style:none;
+	color:red;
+	font-weight:bold;
+	font-size:0.8em;
+	}
